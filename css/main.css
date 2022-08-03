@@ -1605,15 +1605,14 @@ header .logo a {
   margin-left: -30px;
 }
 .intro-info img {
-  height: 9rem;
-  width: 9rem;
+  height: 45rem;
+  width: 40rem;
   border-radius: 50%;
   margin: 0.9rem 0 0 0;
-  float: left;
+  float: center;
 }
 .intro-info .lead {
-  text-align: left;
-  padding-left: 13rem;
+  text-align: center;
 }
 
 .about-content {
@@ -1629,6 +1628,7 @@ header .logo a {
   letter-spacing: 0.25rem;
 }
 .about-content .info-list {
+  justify-content: center;
   list-style: none;
   margin-left: 0;
 }
@@ -2615,7 +2615,7 @@ footer .row {
   max-width: 900px;
 }
 footer .social {
-  text-align: right;
+  text-align: center;
 }
 footer .footer-social {
   display: inline-block;
